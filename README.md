@@ -1,2 +1,4 @@
 # Safari-Resources
 Apple Style Template writted in HTML5 and CSS3
+
+# <a href="http://repo.altervista.org/template/safari/">LIVE DEMO</a>
