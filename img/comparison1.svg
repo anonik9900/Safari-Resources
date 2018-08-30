@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © 2016 Apple Inc. All rights reserved. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 398">
+    <defs>
+      <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+        <stop stop-color="#70BF41" offset="0%"/>
+        <stop stop-color="#01882B" offset="100%"/>
+      </linearGradient>
+      <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+        <stop stop-color="#51A7F9" offset="0%"/>
+        <stop stop-color="#0466C1" offset="100%"/>
+      </linearGradient>
+    </defs>
+
+    <path stroke="#B9B9B9" stroke-width=".25" d="M 43 284.5L 802 284.5M 43 214.5L 802 214.5M 43 144.5L 802 144.5M 43 74.5L 802 74.5"/>
+    <path stroke="#000000" d="M 42.5 354.5 L 802.5 354.5"/>
+
+    <text fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold">
+        <tspan x="357" y="40">MotionMark on macOS</tspan>
+    </text>
+    <text fill="#000000" font-family="Helvetica" font-size="10" letter-spacing="0">
+        <tspan x="27" y="358">0</tspan>
+        <tspan x="15" y="288">150</tspan>
+        <tspan x="15" y="218">300</tspan>
+        <tspan x="15" y="149">450</tspan>
+        <tspan x="15" y="79">600</tspan>
+    </text>
+    <text fill="#000000" font-family="Helvetica" font-size="10" letter-spacing=".002">
+        <tspan x="117" y="368">MacBook</tspan>
+        <tspan x="280" y="368">13-inch MacBook Pro</tspan>
+        <tspan x="470" y="368">15-inch MacBook Pro</tspan>
+        <tspan x="495" y="380">Integrated</tspan>
+        <tspan x="660" y="368">15-inch MacBook Pro</tspan>
+        <tspan x="689" y="380">Discrete</tspan>
+    </text>
+
+    <polygon fill="url(#a)" points="141 354 217 354 217 223 141 223"/>
+    <polygon fill="url(#a)" points="331 354 407 354 407 153 331 153"/>
+    <polygon fill="url(#a)" points="521 354 597 354 597 124 521 124"/>
+    <polygon fill="url(#a)" points="711 354 787 354 787 119 711 119"/>
+    <polygon fill="url(#b)" points="58 354 134 354 134 238 58 238"/>
+    <polygon fill="url(#b)" points="248 354 324 354 324 202 248 202"/>
+    <polygon fill="url(#b)" points="438 354 514 354 514 161 438 161"/>
+    <polygon fill="url(#b)" points="628 354 704 354 704 181 628 181"/>
+    <polygon fill="url(#b)" points="43 48 51 48 51 40 43 40"/>
+    <polygon fill="url(#a)" points="43 60 51 60 51 52 43 52"/>
+    
+    <text fill="#000000" font-family="Helvetica" font-size="10">
+        <tspan x="57" y="48">El Capitan 10.11.6</tspan>
+        <tspan x="57" y="60">Sierra 10.12</tspan>
+    </text>
+</svg>
