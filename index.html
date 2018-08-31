@@ -5,15 +5,53 @@
     <title>Safari Resources</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <meta name="author" content="Nicholas Impieri Aka Anonik">
     <meta name="description" content="Safari Template Builded with HTML5, CSS3 and Webkit">
     <meta name="keywords" content="Safari, template, html5 template, css3, css3 template, apple, mac os, internet">
     <meta name="application-name" content="Safari Template By Anonik">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+    <script type="text/javascript">
+    /*
+    jQuery Scroll to ID
+    */
+    function scroll_to(id) {
+    $('html,body').animate({
+    scrollTop: $('#'+id).offset().top
+    },'slow');
+    }
+    </script>
   </head>
   <body>
 
-<h1 class="titolo">The Safari Resources</h1><br>
+<nav>
+  <img class="logo" src="img/favicon.png">
+  <h1 class="logo">The Safari Resources</h1>
+<div class="navbar">
+  <ul>
+    <li><a><span onclick="scroll_to('principale')">Home</a></li></span>
+    <li><a><span onclick="scroll_to('descrizione')">About Safari</a></li></span>
+    <li><a><span onclick="scroll_to('os')">MacOs High Sierra</a></li></span>
+    <li><a><span onclick="scroll_to('os-mojave')">Discover MacOs Mojave</a></li></span>
+  </ul>
+</div>
+</nav>
+
+
+
+<script type="text/javascript">
+  $(window).on("scroll", function() {
+    if($(window).scrollTop()) {
+      $('nav').addClass('black');
+    }
+
+    else {
+      $('nav').removeClass('black');
+    }
+  })
+</script>
+
+
 
     <div id="principale">
       <div class="parallax"></div>
@@ -177,7 +215,19 @@
           </p>
         </div>
 
-
+        <div id="os-mojave">
+        <div class="parallax4">
+          <b><p class="prl">macOS Mojave</p></b>
+          <h1 class="prl">Powerful. Simply.</h1>
+          <p class="prl2">
+            Dark mode to emphasize your work. New features<br>
+            inspired by the professional world and designed for everyone.<br>
+            Two new apps And a Mac App Store completely<br>
+            redesigned.<br>
+          </p>
+          <a class="button1" href="">See Preview</a>
+        </div>
+</div>
 
     </div>
   </body>

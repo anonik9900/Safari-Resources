@@ -245,6 +245,131 @@ p.vr{
 }
 
 
+.parallax4 {
+
+  background-image: url("../img/mac3.jpg");
+
+
+min-height: 700px;
+
+background-attachment: local;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+text-align: center;
+align-items: center;
+}
+
+h1.prl{
+  color: white;
+  font-size: 60px;
+  font-family: 'arial';
+  margin: 0px 690px 0px 0px;
+  text-align: center;
+}
+
+p.prl{
+  color: white;
+  font-size: 40px;
+  font-family: 'arial';
+  text-align: center;
+  margin: 0px 690px 0px 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+p.prl2{
+  color: white;
+  font-size: 30px;
+  font-family: 'arial';
+  margin: 0px 690px 0px 0px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/*Pulsante Macos Mojave */
+a.button1{
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin: 0px 690px 0px 0px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-family: 'arial';
+  font-size: 20px;
+}
+
+a.button1:hover{
+  background-color: white;
+  color: black;
+}
+
+/*Fine Pulsante */
+
+/*NAVBAR */
+
+nav{
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  background-color: black;
+}
+
+nav ul{
+  float: right;
+  margin: 0;
+  padding-right: 40px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'arial';
+}
+
+img.logo{
+  width: 60px;
+  height: 58px;
+  float: left;
+  margin: 16px 48px;
+}
+
+nav.black{
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav.black a{
+  color: white;
+  font-family: 'arial';
+}
+
+nav.black h1.logo{
+  color: white;
+  font-family: 'arial';
+}
+
+nav h1.logo{
+  color: white;
+  float: left;
+  margin: 16px;
+  font-family: 'arial';
+}
+
+span{
+  cursor: pointer;
+}
+
+/*END NAVBAR */
+
 
 
 /*PULSANTE FIGO */
