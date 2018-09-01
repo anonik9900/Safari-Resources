@@ -6,7 +6,16 @@ Apple Style Template writted in HTML5 and CSS3
 
 # Apple-Style Template
 
+<div align="center">
+  <h2>Desktop Interface</h2>
+  </div>
 <img src="https://github.com/anonik9900/Safari-Resources/blob/master/preview-image/preview.png?raw=true">
+<br>
+
+<div align="center">
+  <h2>Mobile Interface</h2>
+</div>
+<img src="https://github.com/anonik9900/Safari-Resources/blob/master/preview-image/mobile-preview.png?raw=true">
 
 <b>Writted in HTML5 and CSS3</b>
 
