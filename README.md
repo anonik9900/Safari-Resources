@@ -16,6 +16,7 @@ Apple Style Template writted in HTML5 and CSS3
   <h2>Mobile Interface</h2>
 <img src="https://github.com/anonik9900/Safari-Resources/blob/master/preview-image/mobile-preview.png?raw=true">
   </div>
+<br>
 
 <b>Writted in HTML5 and CSS3</b>
 
